@@ -12,10 +12,10 @@ ALLOWED_HOSTS = ["antoineblog.herokuapp.com"]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "daolnd94o67hai",
-        'USER': "qjwvmnzhruvqoh",
-        'PASSWORD': "b49c5735daa062fb72fde101149ac1aa2dce5e47d61f5101ae0fbc2e72eae6ed",
-        'HOST': "ec2-18-214-208-89.compute-1.amazonaws.com",
+        'NAME': "d7kkn6ogdt9e2f",
+        'USER': "lvuldvmusdvkfb",
+        'PASSWORD': "a54e1c2d0b1df4c6dc5886f760cc4b416d3dc77421558c26d7801642d2aee6eb",
+        'HOST': "ec2-34-193-113-223.compute-1.amazonaws.com",
         "PORT": 5432,
     }
 }
