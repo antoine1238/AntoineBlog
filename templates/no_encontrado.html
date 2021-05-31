@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block title %}
+    Página no encontrada
+{% endblock title %}
+
+{% block main_title %}
+    Lo sentimos, a la página le esta dando ansiedad
+{% endblock main_title %}
+
+{% block image %}
+    {% static "assets/img/perrito.png" %}
+{% endblock image %}
+
+{% block barra_busqueda %}
+{% endblock barra_busqueda %}
+
+{% block body %}
+    {% if error %}
+        <p>{{error}}</p>
+    {% endif %}
+{% endblock body %}
+
