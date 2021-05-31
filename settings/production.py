@@ -20,5 +20,5 @@ DATABASES = {
     }
 }
 
-# STATIC_ROOT = os.path.join(BASE_DIR,"staticfiles")
-STATIC_ROOT = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,"staticfiles")
+# STATIC_ROOT = '/static/'
