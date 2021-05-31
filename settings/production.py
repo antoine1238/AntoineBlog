@@ -3,7 +3,7 @@ from .base import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["djangoblogantoine.herokuapp.com"]
+ALLOWED_HOSTS = ["antoineblog.herokuapp.com"]
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
